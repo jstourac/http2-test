@@ -23,6 +23,11 @@ You'll also need `grunt-cli`:
 $ npm install -g grunt-cli
 ```
 
+You will also need `grunt-xunit` and `xunit-file` for creating JUnit like reports.
+```bash
+$ npm install grunt-xunit xunit-file
+```
+
 #Usage
 
 ## Testing the client
