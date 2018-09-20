@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 		mochaTest: {
 			options: {
 				reporter: 'xunit-file',
-				timeout: 2000,
+				timeout: 3000,
         captureFile: 'xunit.xml'
 			},
 			client: {
